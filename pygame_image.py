@@ -12,7 +12,7 @@ def main():
     bg_img = pg.image.load("fig/pg_bg.jpg")
     koukaton_img = pg.image.load("fig/3.png")
     koukaton_img = pg.transform.flip(koukaton_img, True, False)
-    bg_img2 = pg.transform.flip(bg_img, True, False)
+    bg_img2 = bg_img
     tmr = 0
     while True:
         for event in pg.event.get():
